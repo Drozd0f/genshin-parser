@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GenshinParsing",
+  "version": "0.1",
+  "action": {"default_icon": "images/icon.png","default_title": "Click to parse hero or weapon."},
+  "description": "Genshin impact hero or weapon parser",
+  "icons": {"194": "images/icon.png"},
+  "author": "@dr0zdoff",
+    "background": {
+    "service_worker":
+      "main.js"
+    },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+  "https://webstatic-sea.mihoyo.com/"
+  ]
+}
